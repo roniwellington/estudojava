@@ -2,11 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import javax.swing.text.AbstractDocument.Content;
-
 public class ExtratorDeConteudoDoIMDB implements ExtratorDeConteudo {
 
-    public List<Content> extraiConteudos(String json) {
+    public List<Conteudo> extraiConteudos(String json) {
 
         // Extrair só os dados que interessam (titulo, poster, classificação)
         var parser = new JsonParser();
