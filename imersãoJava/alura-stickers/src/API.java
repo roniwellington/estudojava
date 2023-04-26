@@ -15,6 +15,8 @@ public enum API {
         return url;
     }
 
+    //teste
+
     public ExtratorDeConteudo getExtrator() {
         return extrator;
     }
