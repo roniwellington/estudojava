@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author roniw
- *
- */
-module loja {
-}
